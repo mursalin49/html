@@ -1,67 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1 style="text-align:center;">Sing Up From </h1> 
-    <hr>
-    <br>
-    <label for="user"> Name:</label>
-    <input type="text" id="user " placeholder="user name"> <br>
-    <label for="email"> Email:</label><br>
-    <input type="email" id="email" name="usermail" placeholder="user Mail " required> <br>
+<html lang ="en">
+    <head>
+<title> from
+</title>
+    </head>
+    <body>
+        <h2> Registation From</h2>
+        <form> <div>
+            <label for =" fullname"> FullName:</label>
+            <input type="text" name="fullname id="fullname">
+        </div><br>
+        <div>
+            <label for =" email">   Email:</label>
+            <input type="email" name="email" id="email">
+        </div><br>
+        <div>
+            <label for =" password"> Passwor:</label>
+            <input type="password" name="password" id="password">
+        </div><br>
+        <div>
+            <label for =" dob"> Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+        </div><br>
+        <div>
+            <label for =" photo"> Choose your Photo:</label>
+            <input type="file" name="photo" id="photo">
+        </div><br>
+        <div>
+            <label for ="gender"> Gender:</label>
+            <input type="radio" name="gender" id="gender value =" male "> Male
+            <input type="radio" name="gender" id="gender value =" female "> Female 
+            <input type="radio" name="gender" id="gender value =" others "> Others
+         </div><br>
+        <div>
+            <label for ="religion"> Religion:</label>
+            <input checked type="checkbox" name="c1" id="muslim value =" Islam "> Islam
+            <input type="checkbox" name="c1" id="hindu value =" hindu "> Hindu
+            <input type="checkbox" name="c1" id="others value =" others "> Others
+        </div><br>
 
-<label for="pass"> Password:</label><br>
-    <input type="password" id="pass" name="password" placeholder="password"> <br>
-    <label for="phone"> phone :</label><br>
-    <select name="code">
-        <option value="+880">+880</option>
-        <option value="+990">+990</option>
 
-        <option value="+110">+110</option>
+        <div>
+            <label for =" department"> department:</label>
+            <select name ="department">
+                <option value="cse"selected>CSE</option>
+                <option value="eee">EEE</option>
+                <option value="llb">LLB</option>
+            </select>
+        </div>
 
-    </select>
-    <input type="number" id="phone" placeholder="123456789"required> <br>
-    <label for="country">Country</label>
-    <input list="con">
-    <datalist id="con">
-        <option value="Bangladesh"></option>
-        <option value="India"></option>
-        <option value="Canada"></option>
-    </datalist><br>
-    Gender:
-    <br>
-    <input type="radio" id="gnd1" name="gender"> 
-    <label for="gnd1"> Male</label><br>
-    <input type="radio" id="gnd2" name="gender">
-    <label for="gnd2"> Female:</label>
-    <br>
-    <label for="date"> Date of Birth:</label>
-    <input type="date" id="date" name="dob">
-    <br>
-    <label for="time"> Time:</label>
-    <input type="time" id="time" name="tm">
-    <br>
-    <label for="colors">Colors</label>
-    <input type="color" id="colors" name="col">
-    <br>
-    <label for="file"> Choose photo:</label>
-    <input type="file" id="file" name="fl">
-    <br>
-    <input type="checkbox" id="vehicel" name="vec">
-    <label for="vehicle1"> I Have a Bike</label> 
-    <input type="checkbox" id="vehice2" name="vec">
-    <label for="vehicle2"> I Have a Bycycle</label> 
-    <br>
-    <textarea name="comment" cols="30" rows="10"> Comment Here</textarea>
-    <br>
-   
-    <input type="submit" value="send">
-    <input type="reset" value="reset">
+        <div>
+            <label for =" message"> Message:</label><br>
+            <textarea cols="30" rows="10"></textarea> 
+        </div>
 
-</body>
-</html>
+
+        <div>
+            <input type="submit" value =" Register">
+            <input type="reset"  value =" clear">
+        </div>
+        </form>
+    </body>
+    </html>
